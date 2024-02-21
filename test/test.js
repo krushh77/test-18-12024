@@ -1,13 +1,34 @@
-// var array = [1,2,3,4,5]
-
-// function sum(array){
-//     var result = 0
-//   for(var i=0; i<array.length; i++){
-//            
-//   }
-//   return result
-// }
+// const calculateSum = function (arr) {
+//     let result = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//       result += arr[i];
+//     }
+  
+//     return result;
+//   };
+  
+//   console.log(calculateSum([1, 2, 3, 4, 5]));
 // 
+
+// const removing = function (nums, val) {
+//     let count = 0;
+  
+//     for (let i = 0; i < nums.length; i++) {
+//       if (nums[i] !== val) {
+//         nums[count] = nums[i];
+//         count++;
+//       }
+//     }
+//     return count;
+//   };
+  
+//   console.log(removing([3, 2, 2, 3], 3));
+//   console.log(removing([0, 1, 2, 2, 3, 0, 4, 2], 2));
+
+
+
+
+
 
 
 // var array = "121"
@@ -50,7 +71,20 @@
 // factoril(5)
 
 
-
+// const calculateFactorial = function (n) {
+//     let result = 1;
+  
+//     while (n > 1) {
+//       result *= n;
+//       n--;
+//     }
+  
+//     return result;
+//   };
+  
+//   console.log(calculateFactorial(5));
+//   console.log(calculateFactorial(3));
+//   console.log(calculateFactorial(6));
 
 
 
